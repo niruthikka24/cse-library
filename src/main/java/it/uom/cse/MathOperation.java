@@ -15,4 +15,12 @@ public class MathOperation {
         return operand1 - operand2;
     }
 
+
+    public static int factorial(int n){
+        while (n==0){
+            return 1;
+        }
+        return n*factorial(n-1);
+    }
+}
 }
